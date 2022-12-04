@@ -9,11 +9,11 @@ public class Main {
         int i = 700;
         System.out.println("значение переменной i с типом int равно 700");
      long l = 1000L;
-        System.out.println(" значение переменной l с типом long равно " + l);
+        System.out.println(" значение переменной l с типом long равно 1000");
      float f = 45.78f;
-        System.out.println(" значение переменной f с типом float равно " + f);
+        System.out.println(" значение переменной f с типом float равно 45.78");
      double d = 68.42;
-        System.out.println(" значение переменной d с типом double равно " + d);
+        System.out.println(" значение переменной d с типом double равно 68.42");
         System.out.println("Задача 2");
         float f1 = 27.12f;
         long l1 = 987678965549L;
