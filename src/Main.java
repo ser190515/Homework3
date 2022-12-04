@@ -22,8 +22,13 @@ public class Main {
         short s2 = -159;
         short s3 = 27897;
         byte b1 = 67;
-
-
+        System.out.println("Задача 3");
+        byte ludmila = 23;
+        byte anna = 27;
+        byte ekaterina = 30;
+        short ollPapers = 480;
+        int paperStudent = (ollPapers/(ludmila+anna+ekaterina));
+        System.out.println( " На каждого ученика расчитано " + paperStudent + " Листов бумаги " );
 
     }
 }
