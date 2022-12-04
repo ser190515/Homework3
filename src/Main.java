@@ -23,11 +23,11 @@ public class Main {
         short s3 = 27897;
         byte b1 = 67;
         System.out.println("Задача 3");
-        byte ludmila = 23;
-        byte anna = 27;
-        byte ekaterina = 30;
+        byte ludmilaP = 23;
+        byte annaS = 27;
+        byte ekaterinaA = 30;
         short ollPapers = 480;
-        int paperStudent = (ollPapers/(ludmila+anna+ekaterina));
+        int paperStudent = (ollPapers/(ludmilaP+annaS+ekaterinaA));
         System.out.println( " На каждого ученика расчитано " + paperStudent + " Листов бумаги " );
 
     }
