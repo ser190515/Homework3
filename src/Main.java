@@ -85,6 +85,20 @@ public class Main {
        float breakfastWeightKg = breakfastWeightGr/1000f;
        System.out.println(" Вес спортивного завтрока в граммах " + breakfastWeightGr + " Гр " + " Вес спортивного завтрока в килограммах " + breakfastWeightKg + " Кг " );
 
+        System.out.println(" Задача 7 ");
+        System.out.println(" Условия задачи ");
+        byte weightKg = 7;
+        short weight1Gr = 250;
+        short weight2Gr = 500;
+        System.out.println(" Решение задачи ");
+        short weight1KgToGr = 1000;
+        int days1Weight = ((weightKg*weight1KgToGr)/weight1Gr);
+        int days2Weight = ((weightKg*weight1KgToGr)/weight2Gr);
+        int averageDay = ((days1Weight+days2Weight)/2);
+        System.out.println(" максимальное количество дней " + days1Weight);
+        System.out.println(" минимальное количество дней " + days2Weight);
+        System.out.println(" среднее количество дней " + averageDay);
+
 
 
 
