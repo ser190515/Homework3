@@ -66,6 +66,27 @@ public class Main {
         int totalWhiteBoxesPaint = paintsWhite*classesInSchool;
         int totalBrownBoxesPaint = paintsBrown*classesInSchool;
         System.out.println(" В школе, где " + classesInSchool + " классов, нужно " + totalWhiteBoxesPaint+ " банок белой краски и " + totalBrownBoxesPaint + " банок коричневой краски ");
+       System.out.println("Задача 6");
+       System.out.println("Условия задачи");
+       byte bananas = 5;
+       byte weight1BananaGr = 80;
+       short milk = 200;
+       byte weight100MlMilk = 105;
+       byte iceСream = 2;
+       byte weight1IceCream = 100;
+       byte eggs = 4;
+       byte weight1Egg = 70;
+       System.out.println("Решение задачи");
+       int totalWeightBananas = bananas*weight1BananaGr;
+       int totalWeightMilk = ((milk*weight100MlMilk)/100);
+       int totalWeightIceCream = iceСream*weight1IceCream;
+       int totalWeighEggs = eggs*weight1Egg;
+       int breakfastWeightGr = totalWeightBananas+totalWeightMilk+totalWeightIceCream+totalWeighEggs;
+       float breakfastWeightKg = breakfastWeightGr/1000f;
+       System.out.println(" Вес спортивного завтрока в граммах " + breakfastWeightGr + " Гр " + " Вес спортивного завтрока в килограммах " + breakfastWeightKg + " Кг " );
+
+
+
 
     }
 }
