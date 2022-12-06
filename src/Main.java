@@ -29,6 +29,33 @@ public class Main {
         short ollPapers = 480;
         int paperStudent = (ollPapers/(ludmilaP+annaS+ekaterinaA));
         System.out.println( " На каждого ученика расчитано " + paperStudent + " Листов бумаги " );
+        System.out.println("Задача 4");
+        System.out.println("Условия задачи");
+        byte bottles = 16;
+        byte timeMin = 2;
+        byte timeMin2 = 20;
+        byte timeHours = 24;
+        byte timeDay = 3;
+        short timeMonth = 1;
+        System.out.println("Дополнительные данные");
+        byte timeMinHours = 60;
+        short timeHoursDay = 24;
+        short timeMonthDay = 30;
+        System.out.println("Решение задачи");
+        int bottlesMin = bottles/timeMin;
+        int minIn24Hours = timeMinHours*timeHours;
+        int minIn3Day = minIn24Hours*timeDay;
+        int minIn1Month = timeMonthDay*timeMinHours*timeHours;
+        System.out.println(" За 1 мин машина произвела " + bottlesMin + " шт ");
+        int bottles20Min = bottlesMin*timeMin2;
+        System.out.println(" За 20 мин машина произвела " + bottles20Min + " шт " );
+        int bottles24Hours = bottlesMin*minIn24Hours;
+        System.out.println(" За 24 часа машина произвела " + bottles24Hours + " шт " );
+        int bottles3Day = bottlesMin*minIn3Day;
+        System.out.println(" За 3 дня машина произвела " + bottles3Day + " шт " );
+        int bottles3Month = bottlesMin*minIn1Month;
+        System.out.println(" За 1 месяц машина произвела " + bottles3Month + " шт " );
+
 
     }
 }
