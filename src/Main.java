@@ -99,6 +99,48 @@ public class Main {
         System.out.println(" минимальное количество дней " + days2Weight);
         System.out.println(" среднее количество дней " + averageDay);
 
+        System.out.println(" Задача 8 ");
+        System.out.println(" Условия задачи ");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaNewMonthSalary = ((masha*10)/100)+masha;
+        System.out.println(" маша новая зарплата в месяц " + mashaNewMonthSalary);
+        int mashaNewYearSalary = (((masha*10)/100)+masha)*12;
+        System.out.println(" маша новая зарплата в год " + mashaNewYearSalary);
+        int mashaOldYearSalary = masha*12;
+        System.out.println(" маша зарабатывала в год " + mashaOldYearSalary);
+        int mashaIncreaseSalaryYear = mashaNewYearSalary-mashaOldYearSalary;
+        System.out.println(" маша зарплата увеличилась в году на  " + mashaIncreaseSalaryYear);
+        System.out.println(" маша теперь зарабатывает " + mashaNewMonthSalary + " рублей " + " годовой доход вырос на " + mashaIncreaseSalaryYear + " рублей " );
+
+        int denisNewMonthSalary = ((denis*10)/100)+denis;
+        System.out.println(" денис новая зарплата в месяц " + denisNewMonthSalary);
+        int denisNewYearSalary = (((denis*10)/100)+denis)*12;
+        System.out.println(" денис новая зарплата в год " + denisNewYearSalary);
+        int denisOldYearSalary = denis*12;
+        System.out.println(" денис зарабатывал в год " + denisOldYearSalary);
+        int denisIncreaseSalaryYear = denisNewYearSalary-denisOldYearSalary;
+        System.out.println(" денис зарплата увеличилась в году на  " + denisIncreaseSalaryYear);
+        System.out.println(" денис теперь зарабатывает " + denisNewMonthSalary + " рублей " + " годовой доход вырос на " + denisIncreaseSalaryYear + " рублей " );
+
+        int kristinaNewMonthSalary = ((kristina*10)/100)+kristina;
+        System.out.println(" кристина новая зарплата в месяц " + kristinaNewMonthSalary);
+        int kristinaNewYearSalary = (((kristina*10)/100)+kristina)*12;
+        System.out.println(" кристина новая зарплата в год " + kristinaNewYearSalary);
+        int kristinaOldYearSalary = kristina*12;
+        System.out.println(" кристина зарабатывала в год " + kristinaOldYearSalary);
+        int kristinaIncreaseSalaryYear = kristinaNewYearSalary-kristinaOldYearSalary;
+        System.out.println(" кристина зарплата увеличилась в году на  " + kristinaIncreaseSalaryYear);
+        System.out.println(" кристина теперь зарабатывает " + kristinaNewMonthSalary + " рублей " + " годовой доход вырос на " + kristinaIncreaseSalaryYear + " рублей " );
+
+
+
+
+
+
+
+
 
 
 
