@@ -55,7 +55,17 @@ public class Main {
         System.out.println(" За 3 дня машина произвела " + bottles3Day + " шт " );
         int bottles3Month = bottlesMin*minIn1Month;
         System.out.println(" За 1 месяц машина произвела " + bottles3Month + " шт " );
-
+        System.out.println("Задача 5");
+        System.out.println("Условия задачи");
+        byte totalBoxPaints = 120;
+        byte paintsWhite = 2;
+        byte paintsBrown = 4;
+        System.out.println("Решение задачи");
+        int boxPaints1Class = paintsWhite+paintsBrown;
+        int classesInSchool = totalBoxPaints/boxPaints1Class;
+        int totalWhiteBoxesPaint = paintsWhite*classesInSchool;
+        int totalBrownBoxesPaint = paintsBrown*classesInSchool;
+        System.out.println(" В школе, где " + classesInSchool + " классов, нужно " + totalWhiteBoxesPaint+ " банок белой краски и " + totalBrownBoxesPaint + " банок коричневой краски ");
 
     }
 }
